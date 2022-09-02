@@ -1,0 +1,89 @@
+.app__footer {
+    
+    flex-direction: column;
+
+    .app__footer-container{
+        background-color: var(--primary-black);
+        width: 100%;
+        gap: 10rem;
+        .app__footer-info {
+            flex-direction: column;
+            gap: 2rem;
+            padding: 2rem 0;
+            a {
+                color: var(--primary-white);
+                text-decoration: none;
+                transition: 0.25s ease-in-out;
+                font-size: 1.2rem;
+
+                &:hover {
+                    color: var(--secondary-white);
+                }
+            }
+        }
+
+        .app__footer-links {
+            flex-direction: column;
+            p {
+                color: var(--primary-white);
+                transform: translateY(0.5rem);
+            }
+            li {
+               color: var(--primary-black);
+               transform: translateY(-1rem);
+               a {
+                color: var(--primary-white);
+                text-decoration: none;
+                font-size: 0.9rem;
+                transition: 0.25s ease-in-out;
+
+                &:hover {
+                    color: var(--secondary-white);
+                }
+               }
+               padding: 0.25rem 0;
+            }
+        }
+
+        .app__footer-cta {
+            flex-direction: column;
+            background-color: var(--primary-white);
+            padding: 1.5rem 4rem;
+            border-radius: 20px;
+
+            button {
+                background-color: var(--primary-white);
+                border: 3px solid var(--primary-black);
+                padding: 0.5rem 1rem;
+                border-radius: 10px;
+                color: var(--primary-black);
+                transition: 0.25s ease-in-out;
+
+                &:hover {
+                    background-color: var(--secondary-white);
+                    cursor: pointer;
+                }
+
+            }
+        }
+
+        
+    }
+    
+    .app__footer-copyright {
+            background-color: var(--primary-blue);
+            width: 100%;
+            color: var(--primary-white);
+
+            a,i {
+                color: var(--primary-white);
+                transition: 0.25s ease-out;
+
+                &:hover {
+                    color: var(--secondary-white);
+                    transform: scale(1.1);
+                }
+                
+            }
+        }
+}

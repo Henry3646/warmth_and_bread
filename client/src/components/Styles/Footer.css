@@ -1,0 +1,74 @@
+.app__footer {
+  flex-direction: column;
+}
+.app__footer .app__footer-container {
+  background-color: var(--primary-black);
+  width: 100%;
+  gap: 10rem;
+}
+.app__footer .app__footer-container .app__footer-info {
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+.app__footer .app__footer-container .app__footer-info a {
+  color: var(--primary-white);
+  text-decoration: none;
+  transition: 0.25s ease-in-out;
+  font-size: 1.2rem;
+}
+.app__footer .app__footer-container .app__footer-info a:hover {
+  color: var(--secondary-white);
+}
+.app__footer .app__footer-container .app__footer-links {
+  flex-direction: column;
+}
+.app__footer .app__footer-container .app__footer-links p {
+  color: var(--primary-white);
+  transform: translateY(0.5rem);
+}
+.app__footer .app__footer-container .app__footer-links li {
+  color: var(--primary-black);
+  transform: translateY(-1rem);
+  padding: 0.25rem 0;
+}
+.app__footer .app__footer-container .app__footer-links li a {
+  color: var(--primary-white);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.25s ease-in-out;
+}
+.app__footer .app__footer-container .app__footer-links li a:hover {
+  color: var(--secondary-white);
+}
+.app__footer .app__footer-container .app__footer-cta {
+  flex-direction: column;
+  background-color: var(--primary-white);
+  padding: 1.5rem 4rem;
+  border-radius: 20px;
+}
+.app__footer .app__footer-container .app__footer-cta button {
+  background-color: var(--primary-white);
+  border: 3px solid var(--primary-black);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: var(--primary-black);
+  transition: 0.25s ease-in-out;
+}
+.app__footer .app__footer-container .app__footer-cta button:hover {
+  background-color: var(--secondary-white);
+  cursor: pointer;
+}
+.app__footer .app__footer-copyright {
+  background-color: var(--primary-blue);
+  width: 100%;
+  color: var(--primary-white);
+}
+.app__footer .app__footer-copyright a, .app__footer .app__footer-copyright i {
+  color: var(--primary-white);
+  transition: 0.25s ease-out;
+}
+.app__footer .app__footer-copyright a:hover, .app__footer .app__footer-copyright i:hover {
+  color: var(--secondary-white);
+  transform: scale(1.1);
+}/*# sourceMappingURL=Footer.css.map */

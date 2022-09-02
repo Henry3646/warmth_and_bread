@@ -1,0 +1,12 @@
+.app__about {
+  padding: 5rem 5rem;
+}
+.app__about .app__about-container {
+  background-color: var(--primary-white);
+  border-radius: 50px;
+}
+.app__about .app__about-container .app__about-text {
+  flex-direction: column;
+  padding: 5rem;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=About.css.map */
