@@ -1,0 +1,98 @@
+.app__contact {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-white);
+  flex-direction: column;
+}
+.app__contact .app__contact-image {
+  background-color: var(--primary-black);
+  width: 100%;
+}
+.app__contact .app__contact-container {
+  width: 100%;
+  flex-direction: column;
+}
+.app__contact .app__contact-text {
+  background-color: var(--primary-white);
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+  padding: 5rem;
+}
+.app__contact .app__contact-text p {
+  font-size: 1.25rem;
+}
+.app__contact .app__contact-form {
+  width: 100%;
+  background-color: var(--primary-blue);
+  padding: 2rem 2rem;
+}
+.app__contact .app__contact-form form {
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+.app__contact .app__contact-form form .app__contact-small {
+  width: 100%;
+  gap: 5rem;
+}
+.app__contact .app__contact-form form .app__contact-small input {
+  width: 27.5rem;
+  padding: 1rem;
+  outline: none;
+  transition: 0.25s ease-in-out;
+  border-radius: 2px;
+  border: none;
+  background-color: var(--primary-white);
+}
+.app__contact .app__contact-form form .app__contact-small input:focus {
+  outline: 2px solid var(--secondary-white);
+}
+.app__contact .app__contact-form form .app__contact-small input::-moz-placeholder {
+  color: var(--primary-black);
+}
+.app__contact .app__contact-form form .app__contact-small input:-ms-input-placeholder {
+  color: var(--primary-black);
+}
+.app__contact .app__contact-form form .app__contact-small input::placeholder {
+  color: var(--primary-black);
+}
+.app__contact .app__contact-form form .app__contact-textarea textarea {
+  width: 62rem;
+  padding: 1rem;
+  height: 10rem;
+  transition: 0.25s ease-in-out;
+  background-color: var(--primary-white);
+  border: none;
+  border-radius: 2px;
+}
+.app__contact .app__contact-form form .app__contact-textarea textarea::-moz-placeholder {
+  font-family: "Roboto Slab", serif;
+  color: var(--primary-black);
+}
+.app__contact .app__contact-form form .app__contact-textarea textarea:-ms-input-placeholder {
+  font-family: "Roboto Slab", serif;
+  color: var(--primary-black);
+}
+.app__contact .app__contact-form form .app__contact-textarea textarea::placeholder {
+  font-family: "Roboto Slab", serif;
+  color: var(--primary-black);
+}
+.app__contact .app__contact-form form .app__contact-textarea textarea:focus {
+  outline: 2px solid var(--secondary-white);
+}
+.app__contact .app__contact-form button {
+  background-color: var(--primary-white);
+  color: var(--primary-black);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 2px;
+  transition: 0.2s ease-in-out;
+}
+.app__contact .app__contact-form button:hover {
+  cursor: pointer;
+  background-color: var(--secondary-white);
+  color: var(--primary-white);
+  border: none;
+}/*# sourceMappingURL=Contact.css.map */

@@ -8,8 +8,8 @@ const Footer = () => {
         <div className='app__footer-container app__flex'>
             <div className='app__footer-info app__flex'>
                 <a className='app__footer-info-links' href='/'>Address</a>
-                <a className='app__footer-info-links' href='/'>Phone</a>
-                <a className='app__footer-info-links' href='/'>Email</a>
+                <a className='app__footer-info-links' href='tel: (952) 666-8858'>(952) 666-8858</a>
+                <a className='app__footer-info-links' href='mailto: warmthandbread@gmail.com'>warmthandbread@gmail.com</a>
             </div>
             <div className='app__footer-links app__flex'>
                 <p>Links</p>

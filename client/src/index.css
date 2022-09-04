@@ -1,11 +1,21 @@
 body {
   margin: 0;
   overflow-x: hidden;
+  font-family: 'Roboto Slab', serif;
 }
 :root {
 
-  --primary-black: #2C3639;
+  /* --primary-black: #2C3639;
   --primary-blue: #3F4E4F;
   --primary-white: #DCD7C9;
-  --secondary-white: #A27B5C;
+  --secondary-white: #A27B5C; */
+
+  --primary-black: #222831;
+  --primary-blue: #30475E;
+  --primary-white: #DDDDDD;
+  --secondary-white: #F05454;
+
+  
+
+
 }

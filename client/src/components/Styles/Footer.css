@@ -45,19 +45,21 @@
   flex-direction: column;
   background-color: var(--primary-white);
   padding: 1.5rem 4rem;
-  border-radius: 20px;
+  border-radius: 2px;
+  color: var(--primary-black);
 }
 .app__footer .app__footer-container .app__footer-cta button {
-  background-color: var(--primary-white);
-  border: 3px solid var(--primary-black);
+  background-color: var(--primary-blue);
+  border: none;
   padding: 0.5rem 1rem;
-  border-radius: 10px;
-  color: var(--primary-black);
+  border-radius: 2px;
+  color: var(--primary-white);
   transition: 0.25s ease-in-out;
 }
 .app__footer .app__footer-container .app__footer-cta button:hover {
   background-color: var(--secondary-white);
   cursor: pointer;
+  color: var(--primary-white);
 }
 .app__footer .app__footer-copyright {
   background-color: var(--primary-blue);
@@ -66,7 +68,7 @@
 }
 .app__footer .app__footer-copyright a, .app__footer .app__footer-copyright i {
   color: var(--primary-white);
-  transition: 0.25s ease-out;
+  transition: 0.2s ease-out;
 }
 .app__footer .app__footer-copyright a:hover, .app__footer .app__footer-copyright i:hover {
   color: var(--secondary-white);

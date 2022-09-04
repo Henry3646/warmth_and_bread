@@ -12,7 +12,7 @@
 }
 .app__header .app__header-container {
   width: 100%;
-  background-color: var(--primary-white);
+  background-color: var(--primary-blue);
   padding: 2rem 0;
 }
 .app__header .app__header-container .app__header-logo {
@@ -22,7 +22,7 @@
 }
 .app__header .app__header-container .app__header-logo a {
   text-decoration: none;
-  color: var(--primary-black);
+  color: var(--primary-white);
   font-size: 1.5rem;
 }
 .app__header .app__header-container .app__header-nav nav ul {
@@ -30,7 +30,7 @@
   gap: 2.5rem;
 }
 .app__header .app__header-container .app__header-nav nav ul .app__header-nav-linkitem {
-  color: var(--primary-black);
+  color: var(--primary-white);
   text-decoration: none;
   font-size: 1rem;
   display: inline-block;
@@ -44,7 +44,7 @@
   bottom: 0;
   width: 0;
   height: 4px;
-  background-color: var(--primary-black);
+  background-color: var(--secondary-white);
   transition: width 0.25s ease-out;
 }
 .app__header .app__header-container .app__header-nav nav ul .app__header-nav-linkitem:hover::before {
@@ -56,11 +56,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--primary-black);
+  color: var(--primary-white);
   text-decoration: none;
   font-size: 2rem;
   transition: 0.25s ease-in-out;
 }
 .app__header .app__header-container .app__header-nav nav ul a:hover {
-  color: var(--primary-blue);
+  color: var(--secondary-white);
 }/*# sourceMappingURL=Header.css.map */

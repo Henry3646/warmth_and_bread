@@ -36,6 +36,7 @@ app.get("/text" , (req, res) => {
     .then(items => res.json(items))
     .catch(err => console.log(err))
 })
+app.use("/", require("./routes/contact"));
 
 if (process.env.NODE_ENV === "production") {
     app.use(express.static("client/build"))

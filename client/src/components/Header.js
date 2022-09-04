@@ -35,6 +35,9 @@ const Header = () => {
                         </Link>    
                         <a href="https://www.facebook.com/Warmth-and-Bread-from-Jesus-Hands-100576069049774/" target={'_blank'} alt="Facebook" rel="noreferrer">
                             <i className="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href='https://www.instagram.com/warmth.and.bread/' target={'_blank'} alt="Instagram" rel='noreferrer'>
+                            <i class="fa-brands fa-instagram"></i>
                         </a>         
                     </ul>
                     
